@@ -1,4 +1,4 @@
-package ThreadPooling;
+package MultiThreading.ThreadPooling;
 
 import java.time.LocalTime;
 import java.util.concurrent.ExecutorService;
@@ -7,7 +7,7 @@ import java.util.concurrent.Executors;
 class  all{
 
         }
-public class ThreadPooling{
+public class ThreadPooling2{
     public static void main(String[] args) {
         ExecutorService service= Executors.newFixedThreadPool(8);
         for(int i=0;i<100;i++){

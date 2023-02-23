@@ -1,4 +1,4 @@
-package ThreadPooling;
+package MultiThreading.ThreadPooling;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -17,7 +17,7 @@ class WorkerThread implements Runnable {
         try {  Thread.sleep(2000);} catch (InterruptedException e) { e.printStackTrace(); }
     }
 }
-public class ThreadPooling {
+public class ThreadPooling1 {
     public static void main(String[] args) {
         ExecutorService executor = Executors.newFixedThreadPool(4);//creating a pool of 5 threads
         for (int i = 0; i < 10; i++) {
