@@ -1,11 +1,11 @@
-package MultiThreading.ThreadPooling;
+package MultiThreading;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class ThreadLocking extends Thread {
-    static BlockingQueue a=new ArrayBlockingQueue(10000);
+    static BlockingQueue a=new ArrayBlockingQueue(40);
     static ReentrantLock lock=new ReentrantLock();
     public static void main(String[] args)  {
         ThreadLocking d=new ThreadLocking();
@@ -21,11 +21,11 @@ public class ThreadLocking extends Thread {
         lock.unlock();
     }
     public void run(){
-        lock.lock();
-        for(int i=0;i<=50;i++){
+//        lock.lock();
+        for(int i=0;i<40;i++){
             a.poll();
             System.out.println("thread : "+a);
         }
-        lock.unlock();
+//        lock.unlock();
     }
 }

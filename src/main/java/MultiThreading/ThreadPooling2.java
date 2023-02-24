@@ -1,4 +1,4 @@
-package MultiThreading.ThreadPooling;
+package MultiThreading;
 
 import java.time.LocalTime;
 import java.util.concurrent.ExecutorService;
