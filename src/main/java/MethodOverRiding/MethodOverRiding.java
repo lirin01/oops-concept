@@ -1,13 +1,13 @@
 package MethodOverRiding;
 class BankInterest{
-    public void interest(){
+    void interest(){
         System.out.println("your interest rate is : 5%");
     }
 
 }
 class IndianBankInterest extends BankInterest{
     public void interest(){
-//        super.internet(a);
+////        super.internet(a);
         System.out.println("your interest rate is : 7.5%");
     }
 }
