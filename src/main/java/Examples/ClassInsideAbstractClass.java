@@ -1,5 +1,4 @@
 package Examples;
-
 abstract class outer{
     public  class inner{
         public void run(){
@@ -9,7 +8,7 @@ abstract class outer{
 }
 class Demo extends outer{
     public static void main(String[] args) {
-        outer a=new Demo();
+        Demo a=new Demo();
         outer.inner b= a.new inner();
         b.run();
     }
