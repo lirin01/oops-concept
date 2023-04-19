@@ -1,5 +1,6 @@
 package MethodOverLoading;
 class Calculator{
+
     public void bank(String name,String password){
 
     }
@@ -9,7 +10,7 @@ class Calculator{
 }
 public class MethodOverLoading {
     public static void main(String[] args) {
-//        Calculator calculator=new Calculator();
+        Calculator calculator=new Calculator();
 //        calculator.add(1,2);
 //        calculator.add(1,2,3);
 //        calculator.add(1,2,3,4);

@@ -11,7 +11,7 @@ class outer{
 }
 public class ClassReflectionMethod {
     public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
-        outer o = ObjectCreation.outer.class.newInstance(); //command either this or
+        outer o = outer.class.newInstance(); //command either this or
 //        Class a= Class.forName("ObjectCreation.outer"); // this
 //        outer o = (outer) a.newInstance();
         o.printOuter();

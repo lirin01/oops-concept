@@ -1,4 +1,4 @@
-package Examples;
+package InnerClasses;
 
 class abc{
     class bcd{

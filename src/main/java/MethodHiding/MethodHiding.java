@@ -1,11 +1,12 @@
 package MethodHiding;
 class data{
-    public  void show(){
+    static public  void show(){
+
         System.out.println("in data");
     }
 }
 class Display extends data{
-    public  void show(){
+    static public  void show(){
         System.out.println("in Display");
     }
 }

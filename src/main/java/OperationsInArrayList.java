@@ -12,7 +12,7 @@ public class OperationsInArrayList {
             System.out.println("Enter 1 to add task");
             System.out.println("Enter 2 to update a task");
             System.out.println("Enter 3 to delete a task");
-            System.out.println("Enter 4 to search a task");
+            System.out.println("Enter 4 to Trial2.search a task");
             System.out.print("Enter your choice : ");
             int choice= scanInt.nextInt();
             switch (choice){

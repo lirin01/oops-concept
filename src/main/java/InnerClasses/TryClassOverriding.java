@@ -1,4 +1,4 @@
-package Examples;
+package InnerClasses;
 
 class ParentClass{
     public class Inner{

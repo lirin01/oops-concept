@@ -1,16 +1,19 @@
 package Aggregation;
-
-class Details{
-    String name;
-    int number;
-    Details(int number,String name){
-        this.name=name;
-        this.number=number;
+class AirCondition{
+    public void on(){
+        System.out.println("Air condition in on state");
     }
-
+}
+class Fan{
+    public void on(){
+        System.out.println("fan is in on state");
+    }
 }
 public class Aggregation{
     public static void main(String[] args) {
-        Details d=new Details(1,"jhon");
+        AirCondition a=new AirCondition();
+        Fan b=new Fan();
+        a.on();
+        b.on();
     }
 }

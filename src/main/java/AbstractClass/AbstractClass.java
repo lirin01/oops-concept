@@ -2,6 +2,9 @@ package AbstractClass;
 abstract class Internet{
     public abstract void connect();
     public abstract void call();
+    final static void display(){
+        System.out.println("gdfjsh");
+    }
 }
 class Airtel extends Internet{
     public void connect(){

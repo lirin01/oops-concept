@@ -19,6 +19,5 @@ public class CloningMethod {
         Create create1=(Create) create.clone();
         System.out.println(create1.name="kamal");
         System.out.println(create.name);
-
     }
 }
